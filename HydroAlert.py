@@ -303,13 +303,13 @@ def ativarSensores():
 
             if valor_atual >= sensor['Alerta EMERGÊNCIA']:
                 alertaGerado = gerarAlerta("EMERGÊNCIA", mensagemEmergencia, sensor)
-                print(f"\nAlerta de EMERGÊNCIA gerado: {alertaGerado['mensagem']}")
+                print(f"\nAlerta de EMERGÊNCIA gerado e enviado para os usuários cadastrados: {alertaGerado['mensagem']}")
             elif valor_atual >= sensor['Alerta ATENÇÃO']:
                 alertaGerado = gerarAlerta("ATENÇÃO", mensagemAtencao, sensor)
-                print(f"\nAlerta de ATENÇÃO gerado: {alertaGerado['mensagem']}")
+                print(f"\nAlerta de ATENÇÃO gerado e enviado para os usuários cadastrados: {alertaGerado['mensagem']}")
             elif valor_atual >= sensor['Alerta OBSERVAÇÃO']:
                 alertaGerado = gerarAlerta("OBSERVAÇÃO", mensagemObservacao, sensor)
-                print(f"\nAlerta de OBSERVAÇÃO gerado: {alertaGerado['mensagem']}")
+                print(f"\nAlerta de OBSERVAÇÃO gerado e enviado para os usuários cadastrados: {alertaGerado['mensagem']}")
             else:
                 print(f"Sensor '{sensor['Nome']}' está dentro dos limites normais.")
 
@@ -379,8 +379,8 @@ def gerarAlertaManual():
         print("Sensor não encontrado.")
     else:
         alertaGerado = gerarAlerta(nivel, mensagem, sensor_encontrado)
-        print(f"\nAlerta gerado manualmente: {alertaGerado['mensagem']}")
-    
+        print(f"\nAlerta gerado manualmente e enviado para usuários cadastrados: {alertaGerado['mensagem']}")
+
     while True:
         resp = input("Deseja gerar outro alerta (s) ou voltar ao menu (m)? ").lower()
         if resp == 's':
