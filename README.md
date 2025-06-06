@@ -68,5 +68,5 @@ As funções de frontend chamam as funções de backend, passando os dados colet
 ## Equipe
 
 [@Rickkcastro](https://github.com/RickkCastro) - Henrique Castro de Matos - [Linkedin](https://www.linkedin.com/in/rickkcastro/) <br>
-[@fernandoBellegarde](https://github.com/fernandoBellegarde) - Henrique Castro de Matos - [Linkedin](https://www.linkedin.com/in/fernandobellegarde/) <br>
-[@Otaaviio](https://github.com/Otaaviio) - Henrique Castro de Matos - [Linkedin](https://www.linkedin.com/in/otávio-inaba-46379124a/) <br>
+[@fernandoBellegarde](https://github.com/fernandoBellegarde) - Fernando Medeiros Camargo Bellegarde - [Linkedin](https://www.linkedin.com/in/fernandobellegarde/) <br>
+[@Otaaviio](https://github.com/Otaaviio) - Otávio Inaba - [Linkedin](https://www.linkedin.com/in/otávio-inaba-46379124a/) <br>
