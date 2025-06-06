@@ -1,3 +1,8 @@
+"""
+Fernando Bellegarde - RM564169
+Henrique Castro - RM564560
+Otavio Inaba - RM565003
+"""
 # coding=utf-8
 # Define a codificação do arquivo como UTF-8 para suportar caracteres especiais no terminal.
 

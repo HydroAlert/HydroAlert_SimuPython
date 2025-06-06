@@ -6,7 +6,7 @@ O HydroAlert é conceitualmente um sistema inteligente e abrangente de monitoram
 
 Quando um risco elevado é detectado pela solução completa, alertas automáticos e personalizados seriam gerados e enviados por canais como Telegram e WhatsApp. Além disso, o sistema seria capaz de sugerir rotas de fuga seguras e otimizadas, considerando áreas afetadas, mapas de risco e dados em tempo real sobre o avanço da enchente, garantindo uma evacuação rápida e segura. A solução também incluiria uma interface visual robusta para operadores e administradores.
 
-Este projeto atual em Python no terminal serve como uma simulação simplificada e um protótipo funcional de algumas das funcionalidades centrais da solução HydroAlert. Ele foca na gestão básica de usuários e sensores e na simulação da ativação de sensores para gerar alertas simples baseados em limites predefinidos, além da gestão manual e visualização desses alertas.
+Este projeto atua em Python no terminal e serve como uma simulação simplificada e um protótipo funcional de algumas das funcionalidades centrais da solução HydroAlert. Ele foca na gestão básica de usuários e sensores e na simulação da ativação de sensores para gerar alertas simples baseados em limites predefinidos, além da gestão manual e visualização desses alertas.
 
 ## ✨ Funcionalidades
 
